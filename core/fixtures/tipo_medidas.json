@@ -1,0 +1,50 @@
+[
+    {
+        "model": "core.tipomedida",
+        "pk": 1,
+        "fields": {
+            "nombre": "Regulación",
+            "descripcion": "Normas de carácter general y obligatorio establecidas directamente en el plan que regulan a fuentes emisoras u otras actividades de interés."
+        }
+    },
+    {
+        "model": "core.tipomedida",
+        "pk": 2,
+        "fields": {
+            "nombre": "Fomento de actividades económicas",
+            "descripcion": "Medidas que buscan generar incentivos para que las empresas modifiquen su conducta."
+        }
+    },
+    {
+        "model": "core.tipomedida",
+        "pk": 3,
+        "fields": {
+            "nombre": "Beneficios para impulsar acciones de interés general",
+            "descripcion": "Medidas que buscan generar incentivos para personas naturales de manera que modifiquen sus actividades de consumo."
+        }
+    },
+    {
+        "model": "core.tipomedida",
+        "pk": 4,
+        "fields": {
+            "nombre": "Estudios",
+            "descripcion": "Medidas que tienen por objeto generar información que permita evaluar, hacer un diagnóstico, proponer otras medidas, etc."
+        }
+    },
+    {
+        "model": "core.tipomedida",
+        "pk": 5,
+        "fields": {
+            "nombre": "Educación y difusión",
+            "descripcion": "Medidas que buscan motivar a las personas respecto de prácticas sustentables y de informar respecto del contenido y proceso de ejecución del plan."
+        }
+    },
+    {
+        "model": "core.tipomedida",
+        "pk": 6,
+        "fields": {
+            "nombre": "Política Pública",
+            "descripcion": "Se refiere a medidas de política pública generales y elaboración de normativa general o autorregulación"
+        }
+    }
+]
