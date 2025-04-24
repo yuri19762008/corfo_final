@@ -1,0 +1,156 @@
+[
+    {
+        "model": "core.medida",
+        "pk": 1,
+        "fields": {
+            "organismo": 1,
+            "tipo_medida": 1,
+            "nombre": "RCA que contenga obligacion de compensar emisiones",
+            "indicador": "Numero de RCA aprobadas en el año t que contengan obligaciones de compensar emisiones atmosfericas",
+            "formula_calculo": "Suma del numero de RCA aprobadas que contengan obligacion de compensar emisiones atmosfericas",
+            "frecuencia_reporte":"Anual",
+            "medio_verificacion": "Registros de las RCA aprobadas identificando el titular, la RCA, las emisiones y el monto a compensar",
+            "estado": "pendiente"
+        }
+    },
+    {
+        "model": "core.medida",
+        "pk": 2,
+        "fields": {
+            "organismo": 6,
+            "tipo_medida": 1,
+            "nombre": "Condiciones del sistema de recuperacion y/o eliminacion de vapores de estanques Deposito techo fijo",
+            "indicador": "Complimiento de las condiciones indicadas en el literal A) para depositos de techo fijo y Cronogramade implementacion gradual calificado por la SEC cuando corresponda",
+            "formula_calculo": "([N˚ de tanques del articulo 33 literal A) al cual se han implementado las medidas comprometidas en el año t] / [N˚ de tanques del articulo 33 literal A) programadas para el año t]) * 100",
+            "frecuencia_reporte":"Anual",
+            "medio_verificacion": "a) Informe de Avance de Implementacion de las medidas del Articulo 33 del Plan b) En caso de solicitar mas plazo, Oficio de envio de la Rseolucion que califica el Cronograma de implementacion gradual para el plazo de cumplimiento",
+            "estado": "pendiente"
+        }
+    },
+    {
+        "model": "core.medida",
+        "pk": 3,
+        "fields": {
+            "organismo": 6,
+            "tipo_medida": 1,
+            "nombre": "Requisitos del sistema de almacenamiento intermedio",
+            "indicador": "Instrucciones de SEC, para cumplir con el sistema de almacenamiento intermedio u otro con el mismo objetivo, conforme al articulo 5 del DS N˚160/2008",
+            "formula_calculo": "Si / No",
+            "frecuencia_reporte":"Unica",
+            "medio_verificacion": "Oficializacion de la Instruccion de SEC para cumplir con el sistema indicado en el articulo 33 del Plan",
+            "estado": "pendiente"
+        }
+    },
+    {
+        "model": "core.medida",
+        "pk": 4,
+        "fields": {
+            "organismo": 6,
+            "tipo_medida": 1,
+            "nombre": "Aprobacion de sistema de almacenamiento intermedio",
+            "indicador": "N.º de instalaciones con estanque que cuenten con un  sistema de almacenamiento intermedio u otro que cumpla con el objetivo aprovado",
+            "formula_calculo": "Si / No",
+            "frecuencia_reporte":"Unica",
+            "medio_verificacion": "Resolucion que aprueba por la SEC el sistema intermedio u otro que cumpla con el mismo objetivo",
+            "estado": "pendiente"
+        }
+    },
+    {
+        "model": "core.medida",
+        "pk": 5,
+        "fields": {
+            "organismo": 17,
+            "tipo_medida": 6,
+            "nombre": "Coordinacion de Episodios Criticos",
+            "indicador": "Programa de coordinacion de Gestion de Episodios Criticos",
+            "formula_calculo": "Si / No",
+            "frecuencia_reporte":"Anual",
+            "medio_verificacion": "a)Oficializacion del Programa de coordinacion de episodios criticos del año t b)Informe de resultados del programa de coordinacion de episodios criticos del año t",
+            "estado": "pendiente"
+        }
+    },
+    {
+        "model": "core.medida",
+        "pk": 6,
+        "fields": {
+            "organismo": 17,
+            "tipo_medida": 6,
+            "nombre": "Plan comunicaciónal respecto de la gestion de Episodios Criticos",
+            "indicador": "Implementacion de plan Comunicacional en periodo de gestion de episodios criticos",
+            "formula_calculo": "Si / No",
+            "frecuencia_reporte":"Anual",
+            "medio_verificacion": "Informe que de cuenta de la implementacion anual del plan comunicacional orientado a la comunidad",
+            "estado": "pendiente"
+        }
+    },
+    {
+        "model": "core.medida",
+        "pk": 7,
+        "fields": {
+            "organismo": 17,
+            "tipo_medida": 6,
+            "nombre": "Declaracion de Episodios Criticos ",
+            "indicador": "Porcentaje de resoluciones dictadas en relacion al numero de episodios declarados a la comunidad en el año t",
+            "formula_calculo": "[Numero de resoluciones dictadas] / [Numero de episodios declarados ] *100",
+            "frecuencia_reporte":"Anual",
+            "medio_verificacion": "Resoluciones que declaran episodios criticos para el año t",
+            "estado": "pendiente"
+        }
+    },
+    {
+        "model": "core.medida",
+        "pk": 8,
+        "fields": {
+            "organismo": 10,
+            "tipo_medida": 1,
+            "nombre": "Medidas para buques que realizan carga y descarga en la bahia-MARPOL",
+            "indicador": "Numero de inspecciones realizadas en el año t al cumplimiento a las exigencias del Anexo VI del Convenio MARPOL y sus enmiendas, en naves que realicen faenas de carga y descarga en muelles, monoboyas ,boyas multiproposito asociados a los terminales maritimos de la bahia de Quintero ",
+            "formula_calculo": "Suma del numero de Inspecciones realizadas en el año t a naves que realicen faenas de carga y descarga en los terminales maritimos de la bahia de quintero",
+            "frecuencia_reporte":"Anual",
+            "medio_verificacion": "a) Informe anual que de cuenta del cumplimiento a las exigencias, sanciones impuestas y nivel de actividad de naves en la Bahia      b) Registro interno de las inspecciones realizadas en el año t en marco del anexo VI del convenio MARPOL",
+            "estado": "pendiente"
+        }
+    },
+    {
+        "model": "core.medida",
+        "pk": 9,
+        "fields": {
+            "organismo": 7,
+            "tipo_medida": 1,
+            "nombre": "Prohibicion de uso de fuego para la combustion abierta de rastrojos y de cualquier residuo de origen vegetal agricola o forestal en el area rural",
+            "indicador": "Porcentaje de patrullajes de deteccion de quemas no autorizadas ejecutados en el año t en el area del PPDA, respecto del numero de patrullajes para deteccion de quemas no autorizadas programados en el año t en el area del PPDA",
+            "formula_calculo": "N.º de patrullajes para deteccion de quemas no autorizadas, ejecutados en el año t en el area del PPDA / N.º total de patrullajes para deteccion de quemas no autorizadas, programados en el año t en el area del PPDA",
+            "frecuencia_reporte":"Anual",
+            "medio_verificacion": "Reporte y patrullajes programados para deteccion de quemas no autorizadas de desechos vegetales agricolas o forestales efectivamente ejecutados.",
+            "estado": "pendiente"
+        }
+    },
+    {
+        "model": "core.medida",
+        "pk": 10,
+        "fields":{
+            "organismo":7,
+            "tipo_medida": 1,
+            "nombre":"Autorizacion excepcional para la quema de rastrojos y de cualquier otro residuo de origen vegetal agricola o forestal en el area rural",
+            "indicador":"Numero de autorizaciones excepcionales para la ejecucion de quemas agricolas realizadas en el año t",
+            "formula_calculo":"Suma del numero de autorizaciones excepcionales para la ejecucion de quemas agricolas realizadas en el año t",
+            "frecuencia_reporte":"Anual",
+            "medio_verificacion":"Registro de autorizaciones excepcionales a la ejecucion de quemas de rastrojos y cualquier otro residuo de origen vegetal agricola o forestal en el area rural",
+            "estado":"pendiente"
+        }
+    },
+    {
+        "model":"core.medida",
+        "pk":11,
+        "fields":{
+            "organismo":8,
+            "tipo_medida": 1,
+            "nombre":"Prohibicion de uso de fuego para la combustion abierta de rastrojos , hojas secas y de cualquier residuo de origen vegetal o forestal-SAG",
+            "indicador":"Numero de actividades de vigilancia de quemas agricolas no autorizadas en el territorio rural del PPDA",
+            "formula_calculo":"Suma del numero de actividades de vigilancia de quemas agricolas en el territorio rural del PPDA, en año t ",
+            "frecuencia_reporte":"Anual",
+            "medio_verificacion":"Acta de fiscalizacion transversal (documento interno de registro de actividades de fiscalizacion)",
+            "estado":"pendiente"
+        }
+    }
+]

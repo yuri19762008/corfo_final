@@ -1,0 +1,155 @@
+[
+    {
+        "model": "core.organismo",
+        "pk": 1,
+        "fields": {
+            "nombre": "Superintendencia del Medio Ambiente (SMA)",
+            "descripcion": "Entidad encargada de fiscalizar y sancionar el cumplimiento de la normativa ambiental.",
+            "contacto": null
+        }
+    },
+    {
+        "model": "core.organismo",
+        "pk": 2,
+        "fields": {
+            "nombre": "Ministerio del Medio Ambiente (MMA)",
+            "descripcion": "Organismo responsable de diseñar y coordinar la política ambiental en Chile.",
+            "contacto": null
+        }
+    },
+    {
+        "model": "core.organismo",
+        "pk": 3,
+        "fields": {
+            "nombre": "Servicio de Evaluación Ambiental (SEA)",
+            "descripcion": "Encargado de evaluar los impactos ambientales de los proyectos y otorgar resoluciones de calificación ambiental (RCA).",
+            "contacto": null
+        }
+    },
+    {
+        "model": "core.organismo",
+        "pk": 4,
+        "fields": {
+            "nombre": "Secretaría Regional Ministerial de Medio Ambiente (Seremi MMA)",
+            "descripcion": "Representación regional del Ministerio del Medio Ambiente encargada de coordinar acciones ambientales a nivel local.",
+            "contacto": null
+        }
+    },
+    {
+        "model": "core.organismo",
+        "pk": 5,
+        "fields": {
+            "nombre": "Secretaría Regional Ministerial de Salud (Seremi Salud)",
+            "descripcion": "Encargada de monitorear los impactos ambientales en la salud de la población.",
+            "contacto": null
+        }
+    },
+    {
+        "model": "core.organismo",
+        "pk": 6,
+        "fields": {
+            "nombre": "Superintendencia de Electricidad y Combustibles (SEC)",
+            "descripcion": "Regula y fiscaliza las actividades de generación y consumo energético en Chile.",
+            "contacto": null
+        }
+    },
+    {
+        "model": "core.organismo",
+        "pk": 7,
+        "fields": {
+            "nombre": "Corporación Nacional Forestal (CONAF)",
+            "descripcion": "Responsable del manejo y conservación de los recursos forestales y áreas protegidas.",
+            "contacto": null
+        }
+    },
+    {
+        "model": "core.organismo",
+        "pk": 8,
+        "fields": {
+            "nombre": "Servicio Agrícola y Ganadero (SAG)",
+            "descripcion": "Monitorea el cumplimiento de normativas ambientales en el sector agrícola y ganadero.",
+            "contacto": null
+        }
+    },
+    {
+        "model": "core.organismo",
+        "pk": 9,
+        "fields": {
+            "nombre": "Ministerio de Transportes y Telecomunicaciones (MTT)",
+            "descripcion": "Gestiona el transporte y sus impactos en la calidad del aire.",
+            "contacto": null
+        }
+    },
+    {
+        "model": "core.organismo",
+        "pk": 10,
+        "fields": {
+            "nombre": "Dirección General del Territorio Marítimo y Marina Mercante (DIRECTEMAR)",
+            "descripcion": "Fiscaliza actividades marítimas y su impacto ambiental.",
+            "contacto": null
+        }
+    },
+    {
+        "model": "core.organismo",
+        "pk": 11,
+        "fields": {
+            "nombre": "Ministerio de Energía",
+            "descripcion": "Regula y supervisa la producción y uso de energía, incluyendo fuentes renovables y combustibles fósiles.",
+            "contacto": null
+        }
+    },
+    {
+        "model": "core.organismo",
+        "pk": 12,
+        "fields": {
+            "nombre": "Ministerio de Minería",
+            "descripcion": "Supervisa la actividad minera y su impacto en el medio ambiente.",
+            "contacto": null
+        }
+    },
+    {
+        "model": "core.organismo",
+        "pk": 13,
+        "fields": {
+            "nombre": "Ministerio de Vivienda y Urbanismo (MINVU)",
+            "descripcion": "Regula la planificación urbana y su relación con la contaminación ambiental.",
+            "contacto": null
+        }
+    },
+    {
+        "model": "core.organismo",
+        "pk": 14,
+        "fields": {
+            "nombre": "Ministerio de Obras Públicas (MOP)",
+            "descripcion": "Encargado de la infraestructura pública, incluyendo obras con impacto ambiental.",
+            "contacto": null
+        }
+    },
+    {
+        "model": "core.organismo",
+        "pk": 15,
+        "fields": {
+            "nombre": "Gobierno Regional de Valparaíso",
+            "descripcion": "Coordina y supervisa políticas ambientales en la Región de Valparaíso.",
+            "contacto": null
+        }
+    },
+    {
+        "model": "core.organismo",
+        "pk": 16,
+        "fields": {
+            "nombre": "Municipalidades",
+            "descripcion": "Encargadas de la fiscalización y gestión de normativas ambientales a nivel comunal.",
+            "contacto": null
+        }
+    },
+    {
+        "model": "core.organismo",
+        "pk": 17,
+        "fields": {
+            "nombre": "Intendencia Regional de Valparaíso",
+            "descripcion": "Intendencia Regional de Valparaíso",
+            "contacto": null
+        }
+    }
+]

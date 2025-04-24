@@ -1,0 +1,47 @@
+[
+    {
+        "model": "authentication.user",
+        "pk": 1,
+        "fields":
+        {
+            "email":"admin@gmail.com",
+            "first_name":"Administrador",
+            "last_name":"Sistema",
+            "profile_type":1,
+            "password":"pbkdf2_sha256$870000$oVCBwxFrUh3DlcDsOUNhtH$SnPaUh0VUvd4NVqg/SNVdILhXGswv87CiZr6Ey/09Ks="
+            }
+    },
+    {
+        "model": "authentication.user",
+        "pk": 2,
+        "fields":{
+            "email":"funcionario_sectorial@gmail.com",
+            "first_name":"Funcionario",
+            "last_name":"Sectorial",
+            "profile_type":2,
+            "password":"pbkdf2_sha256$870000$oVCBwxFrUh3DlcDsOUNhtH$SnPaUh0VUvd4NVqg/SNVdILhXGswv87CiZr6Ey/09Ks="
+        }
+    },
+    {
+        "model": "authentication.user",
+        "pk": 3,
+        "fields":{
+            "email":"analista_sma@gmail.com",
+            "first_name":"Analista",
+            "last_name":"SMA",
+            "profile_type":3,
+            "password":"pbkdf2_sha256$870000$oVCBwxFrUh3DlcDsOUNhtH$SnPaUh0VUvd4NVqg/SNVdILhXGswv87CiZr6Ey/09Ks="
+        }
+    },
+    {
+        "model": "authentication.user",
+        "pk": 4,
+        "fields":{
+            "email":"administrador_sma@gmail.com",
+            "first_name":"Administrador",
+            "last_name":"SMA",
+            "profile_type":4,
+            "password":"pbkdf2_sha256$870000$oVCBwxFrUh3DlcDsOUNhtH$SnPaUh0VUvd4NVqg/SNVdILhXGswv87CiZr6Ey/09Ks="
+        }
+    }
+]
